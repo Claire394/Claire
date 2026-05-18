@@ -1,6 +1,6 @@
 # Claire Dupont Personal Page
 
-A static, GitHub Pages-ready personal advertising page with a local hero image and lightweight animation.
+A static, GitHub Pages-ready page for a lingerie designer and boutique owner, with a local hero image and lightweight animation.
 
 ## Publish on GitHub Pages
 
