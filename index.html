@@ -5,129 +5,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Claire Dupont, lingerie designer and owner of an independent lingerie boutique."
+      content="Claire Dupont, lingerie designer and boutique owner in Brooklyn, New York."
     />
     <title>Claire Dupont | Lingerie Designer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="cursor-glow" aria-hidden="true"></div>
-
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Claire Dupont home">
-        <span>CD</span>
-      </a>
-      <nav aria-label="Primary navigation">
-        <a href="#profile">About</a>
-        <a href="#presence">Design</a>
-        <a href="#connect">Connect</a>
+      <a class="brand" href="#top">Claire Dupont</a>
+      <nav>
+        <a href="#profile">Profile</a>
+        <a href="#atelier">Atelier</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero">
-        <div class="hero-media" aria-hidden="true">
-          <img src="assets/claire-hero.png" alt="" />
-        </div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content reveal">
-          <p class="eyebrow">Lingerie Designer & Boutique Owner</p>
+      <section class="hero" aria-label="Claire Dupont introduction">
+        <picture>
+          <source media="(max-width: 900px)" srcset="assets/claire-office-hero-mobile.png" />
+          <img
+            class="hero-photo"
+            src="assets/claire-office-hero.png"
+            alt="Claire Dupont in a refined office setting"
+          />
+        </picture>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Brooklyn, New York</p>
           <h1>Claire Dupont</h1>
-          <p class="hero-copy">
-            I own my own lingerie boutique and have spent years focusing on women's lingerie
-            design and styling, creating pieces that feel comfortable, elegant, and high quality.
-          </p>
-          <div class="hero-actions" aria-label="Profile actions">
-            <a class="button primary" href="https://wa.me/16462409317" target="_blank" rel="noopener">
-              WhatsApp
-            </a>
-            <a class="button secondary" href="#profile">View Details</a>
+          <p class="hero-title">Lingerie designer, boutique owner, and brand-led intimate apparel specialist.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Book a Consultation</a>
+            <a class="button secondary" href="#profile">View Profile</a>
           </div>
         </div>
       </section>
 
-      <section id="profile" class="section profile-section">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Essential Details</p>
-          <h2>Designer Snapshot</h2>
+      <section class="profile-band reveal-section" id="profile">
+        <div class="section-inner profile-grid stagger">
+          <div>
+            <p class="eyebrow">Personal Profile</p>
+            <h2>Elegant lingerie design with a precise commercial eye.</h2>
+          </div>
+          <div class="profile-copy">
+            <p>
+              Claire Dupont is a 39-year-old lingerie designer and business owner based in Brooklyn.
+              Her work focuses on refined fit, polished styling, and pieces that help women feel
+              confident, comfortable, and beautifully composed.
+            </p>
+            <p>
+              With years of experience in women&apos;s intimate apparel, Claire brings together fabric
+              knowledge, boutique merchandising, and a modern European-American sense of elegance.
+            </p>
+          </div>
         </div>
+      </section>
 
-        <div class="profile-grid">
-          <article class="profile-card reveal tilt-card">
-            <span class="label">Name</span>
-            <strong>Claire Dupont</strong>
+      <section class="studio-panel panel-atelier reveal-section" id="atelier">
+        <div class="section-inner panel-content stagger">
+          <p class="eyebrow">The Atelier</p>
+          <h2>Design work shaped by texture, proportion, and quiet luxury.</h2>
+          <p>
+            From lace selection and silhouette planning to in-store styling, Claire&apos;s boutique is
+            built around intimate apparel that feels elevated without losing comfort.
+          </p>
+        </div>
+      </section>
+
+      <section class="details-section reveal-section">
+        <div class="section-inner details-grid stagger">
+          <article>
+            <span>01</span>
+            <h3>Identity</h3>
+            <p>Business owner and lingerie designer affiliated with Victoria&apos;s Secret.</p>
           </article>
-          <article class="profile-card reveal tilt-card">
-            <span class="label">Business</span>
-            <strong>Lingerie Boutique</strong>
+          <article>
+            <span>02</span>
+            <h3>Measurements</h3>
+            <p>5 ft 6 in, 109 lb, with a fitting-first approach to design and styling.</p>
           </article>
-          <article class="profile-card reveal tilt-card">
-            <span class="label">Age</span>
-            <strong><span class="counter" data-target="39">0</span></strong>
-          </article>
-          <article class="profile-card reveal tilt-card">
-            <span class="label">Birthday</span>
-            <strong>March 21, 1986</strong>
-          </article>
-          <article class="profile-card reveal tilt-card">
-            <span class="label">Height</span>
-            <strong>5'6"</strong>
-          </article>
-          <article class="profile-card reveal tilt-card">
-            <span class="label">Weight</span>
-            <strong>109 lb</strong>
-          </article>
-          <article class="profile-card reveal tilt-card">
-            <span class="label">Location</span>
-            <strong>Brooklyn, NY</strong>
-          </article>
-          <article class="profile-card reveal tilt-card">
-            <span class="label">Role</span>
-            <strong>Lingerie Designer</strong>
+          <article>
+            <span>03</span>
+            <h3>Birthday</h3>
+            <p>Born March 21, 1986, with a career centered on women&apos;s confidence and beauty.</p>
           </article>
         </div>
       </section>
 
-      <section id="presence" class="section presence-section">
-        <div class="presence-copy reveal">
-          <p class="eyebrow">Design Philosophy</p>
-          <h2>Comfortable, elegant, and made with care.</h2>
+      <section class="studio-panel panel-showroom reveal-section">
+        <div class="section-inner panel-content align-right stagger">
+          <p class="eyebrow">Boutique Experience</p>
+          <h2>A calm, premium showroom for personal styling and curated fittings.</h2>
           <p>
-            My work is centered on women: how lingerie feels, how it fits, and how it helps every
-            woman feel confident and beautiful. I focus on refined styling, soft comfort, and
-            quality details that make each piece feel special.
+            Each client experience is tailored around lifestyle, body proportion, fabric preference,
+            and the kind of elegance that can be worn every day.
           </p>
-        </div>
-
-        <div class="tag-cloud reveal" aria-label="Personality tags">
-          <span>Lingerie design</span>
-          <span>Women's styling</span>
-          <span>Comfort fit</span>
-          <span>Elegant details</span>
-          <span>High quality</span>
-          <span>Confidence</span>
         </div>
       </section>
 
-      <section id="connect" class="section connect-section">
-        <div class="connect-panel reveal">
-          <p class="eyebrow">Contact</p>
-          <h2>Visit the boutique or start a conversation.</h2>
+      <section class="services reveal-section" id="services">
+        <div class="section-inner">
+          <div class="section-heading stagger">
+            <p class="eyebrow">Services</p>
+            <h2>Designed for women who want comfort, elegance, and lasting quality.</h2>
+          </div>
+          <div class="service-grid stagger">
+            <article>
+              <h3>Private Styling</h3>
+              <p>One-on-one lingerie pairing for wardrobe needs, occasions, and personal fit goals.</p>
+            </article>
+            <article>
+              <h3>Design Direction</h3>
+              <p>Concept, fabric, silhouette, and trim guidance for refined intimate apparel collections.</p>
+            </article>
+            <article>
+              <h3>Boutique Curation</h3>
+              <p>Premium product selection with a focus on elevated essentials and statement pieces.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="studio-panel panel-city reveal-section">
+        <div class="section-inner panel-content stagger">
+          <p class="eyebrow">New York Base</p>
+          <h2>Brooklyn energy, European restraint, and a polished commercial sensibility.</h2>
           <p>
-            For styling questions, boutique inquiries, or lingerie design conversations, contact
-            Claire directly on WhatsApp.
+            Claire&apos;s point of view is modern, feminine, and grounded in the rhythm of women&apos;s
+            real lives.
           </p>
-          <div class="contact-actions">
-            <a class="button primary" href="https://wa.me/16462409317" target="_blank" rel="noopener">
-              Chat on WhatsApp
-            </a>
-            <span class="contact-number">+1 646 240 9317</span>
+        </div>
+      </section>
+
+      <section class="contact reveal-section" id="contact">
+        <div class="section-inner contact-grid stagger">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Work with Claire</h2>
+            <p>
+              For private appointments, styling sessions, or lingerie design consultation, connect
+              with Claire&apos;s Brooklyn boutique.
+            </p>
+          </div>
+          <div class="contact-card">
+            <a href="mailto:hello@clairedupont.com">hello@clairedupont.com</a>
+            <span>Brooklyn, New York</span>
+            <span>Victoria&apos;s Secret</span>
           </div>
         </div>
       </section>
@@ -135,9 +166,8 @@
 
     <footer>
       <span>Claire Dupont</span>
-      <span>Brooklyn, New York</span>
+      <span>Luxury lingerie design and boutique styling</span>
     </footer>
-
     <script src="script.js"></script>
   </body>
 </html>
