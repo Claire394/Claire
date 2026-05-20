@@ -6,7 +6,9 @@ A polished one-page personal website for Claire Dupont, built as a static site f
 
 - `index.html` - page structure
 - `styles.css` - responsive visual design
-- `assets/claire-office-hero.png` - homepage background portrait
+- `assets/claire-office-hero.png` - optimized desktop homepage background portrait
+- `assets/claire-personal-photo.png` - mobile homepage portrait
+- `assets/claire-office-hero-original.png` - backup of the original landscape photo
 
 ## GitHub Pages
 
